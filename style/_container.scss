@@ -1,0 +1,23 @@
+.container {
+    width: 80%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    .left_side {
+        img {
+            width: 100%;
+        }
+       
+    }
+    .right_side {
+        padding-left: 30px;
+        h1 {
+            color: $rang;
+            margin-bottom: 20px;
+        }
+        button {
+            margin-top: 20px;
+            @include button (violet, #fff, 16px)
+        }
+    }
+}

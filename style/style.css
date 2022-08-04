@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: red;
+}
+
+.btn {
+  padding: 10px 24px;
+  border-radius: 5px;
+  border: none;
+  background-color: red;
+  color: gold;
+  font-size: 20px;
+}
+
+.btn2 {
+  padding: 10px 24px;
+  border-radius: 5px;
+  border: none;
+  background-color: blue;
+  color: aqua;
+  font-size: 15px;
+}
+
+header {
+  width: 100%;
+  height: 90px;
+  background-color: dodgerblue;
+}
+
+header nav {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .logo {
+  color: #fff;
+}
+
+header .collect {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .collect .items {
+  list-style: none;
+  margin-left: 40px;
+}
+
+header .collect .items a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header .collect .items a:hover {
+  color: red;
+}
+
+header .collect .items:first-child a {
+  color: red;
+}
+
+.banner {
+  width: 100%;
+  height: 500px;
+  background: url(../qoraaa.jpeg) no-repeat center/cover;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.banner h1 {
+  color: #fff;
+  font-size: 7vw;
+}
+
+.container {
+  width: 80%;
+  margin: 50px auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
+.container .left_side img {
+  width: 100%;
+}
+
+.container .right_side {
+  padding-left: 30px;
+}
+
+.container .right_side h1 {
+  color: black;
+  margin-bottom: 20px;
+}
+
+.container .right_side button {
+  margin-top: 20px;
+  padding: 10px 24px;
+  border-radius: 5px;
+  border: none;
+  background-color: violet;
+  color: #fff;
+  font-size: 16px;
+}
+/*# sourceMappingURL=style.css.map */

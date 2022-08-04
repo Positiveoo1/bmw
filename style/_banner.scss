@@ -1,0 +1,11 @@
+.banner {
+    width: 100%;
+    height: 500px;
+    background: url(../qoraaa.jpeg) no-repeat center/cover;
+    display: grid;
+    place-items: center;
+    h1 {
+        color: #fff;
+        font-size: 7vw;
+    }
+}
